@@ -1,4 +1,6 @@
-﻿namespace CollectionLinqEx
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace CollectionLinqEx
 {
     using System.Collections.Generic;
 
@@ -6,6 +8,7 @@
     {
         public static List<Employee> GetEmployees()
         {
+
             return new List<Employee>
             {
                 new Employee(1, "Maximus", "Prince", 24, Gender.Male),
@@ -22,5 +25,11 @@
                 new Employee(12, "Rogan ", "Mcclure", 21, Gender.Female)
             };
         }
+    }
+
+    public  enum Gender
+    {
+        Male , Female
+
     }
 }
