@@ -1,6 +1,7 @@
 ﻿namespace CollectionLinqEx
 {
     using System.Collections.Generic;
+   
 
     public static class EmployeeFactory
     {
