@@ -25,7 +25,9 @@
 
         public void Exercise3()
         {
-            // TODO
+            var names = new[] {"Alex", "Andrei", "Marian", "Bogdan"};
+
+            // Selectati prima litera a numelui (aplicati aceasta selectie doar pentru acele nume care au litera a in interior, nu conteaza daca este mica sau mare)
         }
     }
 }
